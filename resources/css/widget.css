@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+#wordstormWidget
+{
+	width: 290px;
+	height: 400px;
+
+	border-radius: 5px;
+
+	background-color: #9BBAD8;
+}
+
+#wordstormWidget_header
+{
+	width: 280px;
+	height: 30px;
+
+	background-color: #422726;
+	color: #FFEB2B;
+
+	padding-left: 10px;
+	line-height: 170%;
+
+	border-radius: 5px 5px 0 0;
+}
+
+#wordstormWidget_chatReconnect
+{
+	display: none;
+
+	margin: 0 auto;
+	text-align: center;
+}
+#wordstormWidget_btnReconnect
+{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+
+	border-radius: 10px;
+	background-color: #422726;
+	color: #fff;
+
+	margin-bottom: 0px;
+	font-size: 24px;
+	font-weight: bold;
+
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#wordstormWidget_header span
+{
+	font-weight: bold;
+}
+
+#wordstormWidget_content
+{
+	width: 280px;
+	height: 260px;
+
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#wordstormWidget_footer
+{
+	width: 280px;
+	height: 80px;
+
+	padding-left: 10px;
+}
+
+#wordstormWidget_chatArea
+{
+	height: 250px;
+	overflow-y: auto;
+}
+
+#wordstormWidget_txtMsg
+{
+	width: 190px;
+	height: 55px;
+
+	margin-top: 10px;
+	padding: 10px;
+
+	border: 2px solid #422726;
+	border-radius: 5px;
+
+	outline: none;
+}
+
+#wordstormWidget_divButtons
+{
+	width: 15%;
+	float: right;
+	margin-top: -80px;
+	margin-right: 12px;
+}
+#wordstormWidget_divTextarea
+{
+	width: 80%;
+}
+#wordstormWidget_btnSend, 
+#wordstormWidget_btnAttach
+{
+	height: 20px;
+	border-radius: 5px;
+	background-color: #FEEC42;
+	text-align: center;
+	line-height: 150%;
+
+	font-size: 12px;
+	font-weight: bold;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	cursor: pointer;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#wordstormWidget_btnSend:hover,
+#wordstormWidget_btnAttach:hover
+{
+	background-color: #F5E43F;
+}
+#wordstormWidget_btnAttach
+{
+	margin-top: 10px;
+}
+.wordstormWidget_btnDisabled
+{
+	color: #bbb;
+	font-weight: bold;
+}
+
+.wordstormWidget_msgBalloon
+{
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+	margin-bottom: 7px;
+	margin-right: 10px;
+
+	border-radius: 5px;
+
+	background-color: #fff;
+
+	display: inline-block;
+	max-width: 85%;
+}
+
+.wordstormWidget_msgBalloon h2
+{
+	font-weight: bold;
+	color: #422726;
+
+	padding-bottom: 2px;
+}
+
+.wordstormWidget_msgBalloon span
+{
+	display: inline-block;
+	min-width: 50px;
+	max-width: 100%;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+}

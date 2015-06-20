@@ -1,0 +1,12 @@
+{
+  "name": "WordstormChat",
+  "version": "0.0.1",
+  "description": "prototype",
+  "main": "app.js",
+  "author": "Caio Dantas",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.8.2",
+    "socket.io": "^1.0.6"
+  }
+}

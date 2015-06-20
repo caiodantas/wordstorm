@@ -1,0 +1,34 @@
+<div id='bremenChat_container'>
+
+	<div id='bremenChatWidget'>
+
+		<div id='bremenChatWidget_header'>
+			<span>Bremen Chat</span>
+		</div>
+
+		<div id='bremenChatWidget_content'>
+			<div id='bremenChatWidget_chatArea'>
+				
+			</div>
+		</div>
+
+		<div id='bremenChatWidget_footer'>
+			<div id='bremenChatWidget_divTextarea'>
+				<textarea id='bremenChatWidget_txtMsg' placeholder='メッセージを入力ください。' disabled="true"></textarea>
+			</div>
+			<div id='bremenChatWidget_divButtons'>
+				<div id='bremenChatWidget_btnSend' class='bremenChatWidget_btnDisabled'>送信</div>
+				<div id='bremenChatWidget_btnAttach' class='bremenChatWidget_btnDisabled'>添付</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div id='bremenChatWidget_msgComponent'>
+	<div class='bremenChatWidget_msgBalloon'>
+		<h2>お客様</h2>
+		<span>テストメッセージ</span>
+	</div>
+	<span style='display: block;'></span>
+</div>
